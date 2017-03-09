@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+#background{
+    background-image: url("/img/LeatherChairBack.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+
+#background-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+/*Need to fix it so that the name stays at the top of the page*/
+.name-logo{
+    color: white;
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.nav-bar{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+.nav-bar a{
+    color: white;
+}
