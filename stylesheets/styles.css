@@ -7,7 +7,7 @@ body{
 }
 
 #background{
-    background-image: url("/img/LeatherChairBack.jpg");
+    background-image: url("/img/View3.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -29,22 +29,37 @@ body{
 /*Need to fix it so that the name stays at the top of the page*/
 .name-logo{
     color: white;
+    font-family: Georgia;
     font-size: 35px;
-    width: 50%;
-    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     position: absolute;
-    top: 200px;
-    left: 300px;
 }
 
 .nav-bar{
     color: white;
-    text-align: center;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     position: absolute;
-    top: 60%;
-    left: 45%;
 }
 
 .nav-bar a{
     color: white;
+}
+
+#about-me{
+    text-align: center;
+}
+
+#resume{
+    text-align: center;
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
 }
