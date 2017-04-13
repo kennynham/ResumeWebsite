@@ -3,9 +3,57 @@ html, body{
 }
 
 body{
-    margin: 0px;
+    text-align: center;
 }
 
+header{
+    height: 75px;
+    background: #dbdbdb; /*grey*/
+    width: 100%; /*To make the content reach the end of the screen*/
+
+    /* z-index with higher number will stack in front of other elements with lower z-index */
+    z-index: 10; /*So content does not go over header*/
+    position: fixed;
+
+}
+
+#container{
+    top-margin: 100%;
+}
+
+#banner{
+    width: 100%;
+    height: 0px;
+    position: fixed;
+    top: 400px;
+}
+
+#portfolio-section{
+    width: 100%;
+    position: relative;
+    top: 1000px;
+    background: #dbdbdb;
+    height: 1000px;
+}
+
+#contact-section{
+    width: 100%;
+    position: relative;
+    top: 1000px;
+    background: #ebebeb;
+    height: 1000px;
+}
+
+#resume-section{
+    width: 100%;
+    position: relative;
+    top: 890px;
+    background: #dbdbdb;
+    height: 1000px;
+    z-index: 20;
+}
+
+/*
 #background{
     background-image: url("/img/View3.jpg");
     background-size: cover;
@@ -13,7 +61,7 @@ body{
     position: relative;
     top: 0;
     bottom: 0;
-    height: 100vh;
+    height: 60vh;
     z-index: -10;
 }
 
@@ -26,7 +74,9 @@ body{
     width: 100%;
     z-index: -5;
 }
+*/
 /*Need to fix it so that the name stays at the top of the page*/
+/*
 .name-logo{
     color: white;
     font-family: Georgia;
@@ -40,8 +90,8 @@ body{
 
 .nav-bar{
     color: white;
-    top: 70%;
-    left: 50%;
+    top: 5%;
+    left: 10%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -63,3 +113,4 @@ body{
 ul{
     list-style-type: none;
 }
+*/
