@@ -1,71 +1,28 @@
 html, body{
-    height: 100%;
 }
 
 body{
     text-align: center;
+    z-index: -20;
 }
 
-header{
-    height: 75px;
-    background: #dbdbdb; /*grey*/
-    width: 100%; /*To make the content reach the end of the screen*/
-
-    /* z-index with higher number will stack in front of other elements with lower z-index */
-    z-index: 10; /*So content does not go over header*/
-    position: fixed;
-
+.typewrite{
+    font-size: 90px;
+    color: black;
 }
 
-#container{
-    top-margin: 100%;
-}
-
-#banner{
-    width: 100%;
-    height: 0px;
-    position: fixed;
-    top: 400px;
-}
-
-#portfolio-section{
-    width: 100%;
-    position: relative;
-    top: 1000px;
-    background: #dbdbdb;
-    height: 1000px;
-}
-
-#contact-section{
-    width: 100%;
-    position: relative;
-    top: 1000px;
-    background: #ebebeb;
-    height: 1000px;
-}
-
-#resume-section{
-    width: 100%;
-    position: relative;
-    top: 890px;
-    background: #dbdbdb;
-    height: 1000px;
-    z-index: 20;
-}
-
-/*
-#background{
-    background-image: url("/img/View3.jpg");
+/*.landing-page{
+    background-image: url("/img/6.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
     top: 0;
     bottom: 0;
-    height: 60vh;
+    height: 80vh;
     z-index: -10;
-}
+}*/
 
-#background-overlay{
+/*#background-overlay{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
     top: 0;
@@ -73,44 +30,29 @@ header{
     height: 100%;
     width: 100%;
     z-index: -5;
-}
-*/
-/*Need to fix it so that the name stays at the top of the page*/
-/*
-.name-logo{
-    color: white;
-    font-family: Georgia;
-    font-size: 35px;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+}*/
+
+#banner{
+    width: 100%;
+    height: 0px;
     position: absolute;
+    top: 400px;
 }
 
-.nav-bar{
-    color: white;
-    top: 5%;
-    left: 10%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+a:hover{
+    text-decoration: none;
+    color: red;
 }
 
-.nav-bar a{
-    color: white;
+.github-link, .linkedin-link, .resume-link{
+    width: 33%;
+    float: left;
+    margin-top: 800px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-#about-me{
-    text-align: center;
+.content .icon{
+    z-index: 10;
+    position: relative;
 }
-
-#resume{
-    text-align: center;
-    background-color: white;
-}
-
-ul{
-    list-style-type: none;
-}
-*/

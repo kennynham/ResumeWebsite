@@ -1,143 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Kenny's Resume Website</title>
-    <link
-        rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css" />
 </head>
 
 <body>
-<!-- Background image -------------------------------------->
-    <!-- <div id="background">
+    <!-- Background image -------------------------------------->
+    <div class="landing-page">
         <div id="background-overlay"></div>
-    </div> -->
+        <h1 id="banner">
+            <p href="" class="typewrite" data-period="1000" data-type='["Hi, I&#39;m Kenny.", "A developer :)"]'>
+                <span class="wrap"></span>
+            </p>
+        </h1>
 
-<!-- Collapsing Header Effect Start ------------------------>
-    <div id="container">
-        <div id="banner">
-            <h2>Hi, I'm Kenny</h2>
-        </div>
-
-        <div id="portfolio-section">
-            <p>Portfolio Section</p>
-        </div>
-
-        <div id="contact-section">
-            <div class="container">
-                <div class="row">
-                    <p>Contact me</p>
+        <div class="content">
+            <div class="github-link">
+                <div class="icon-title">
+                    <p>Check out some of my work on GitHub</p>
                 </div>
-                <div class="row">
-                    <p>Email Button</p>
+                <div class="icon">
+                    <a class="fa fa-github fa-3x" aria-hidden="true" href="https://github.com/kennynham"></a>
                 </div>
-                <div class="row">
-                    <p>LinkedIn Button</p>
-                </div>
-                <div class="row">GitHub Button</div>
             </div>
 
-            <div id="resume-section">
-                <div class="resume-link">
-                    <p>Resume Section</p>
-                    <a href="#">Click to download my resume</a>
+            <div class="linkedin-link">
+                <div class="icon-title">
+                    <p>Find me on LinkedIn</p>
+                </div>
+                <div class="icon">
+                    <a class="fa fa-linkedin-square fa-3x" aria-hidden="true" href="https://www.linkedin.com/in/kenny-nham-9a754b11b/"></a>
+                </div>
+            </div>
+
+            <div class="resume-link">
+                <div class="icon-title">
+                    <p>Download my resume</p>
+                </div>
+                <div class="icon">
+                    <a class="fa fa-file-pdf-o fa-3x" aria-hidden="true" href="/files/resume.pdf" download></a>
                 </div>
             </div>
         </div>
     </div>
 
-<!-- Rest of code start ---------------------------------->
-
-    <!-- <div id="" class="main-content" data-content-field="main-content">
-        <section id="about-me" class="index-section">
-            <b>About Me</b><br>
-
-        </section>
-        <div class="resume-section">
-            <section id="resume" class="index-section">
-                <p>
-                    <b>Professional summary</b><br>
-                    Enthusiastic computer science undergraduate at California State University Fullerton
-                    that is eager to jump into professional web development.  Brings independent experience
-                    and drive to constantly learn new technologies in a rapidly developing industry.<br><br>
-
-                    <b>Education</b>
-                    <br>
-                    California State University, Fullerton                                      Expected Spring 2018<br>
-                    Bachelor of Science, Computer Science
-                    <br>
-                    Concentration: Internet and Enterprise Computing
-                    <br><br>
-
-                    Orange Coast College                                                                 Spring 2014<br>
-                    Associate of Arts
-                    <br><br>
-
-                    <b>Technical Skills</b>
-                    <br>
-                    Programming Languages: HTML, CSS, C++, Java, PHP
-                    <br>
-                    Database Systems: MySQL
-                    <br>
-                    Developer Environments: Visual Studio, IntelliJ IDEA
-                    <br>
-                    Operating Systems: Windows, Linux
-                    <br>
-                    Mobile Platforms: Android, iOS
-                    <br><br>
-
-                    <b>Related Course Work</b>
-                    <br>
-                    <b>Software Engineering Project</b>
-                    <br>
-                    <ul>
-                        <li>Worked in a team to develop a website to control an internet of things including IP cameras,
-                            smart locks and humidity sensors using HTML, CSS, PHP, and MySQL.</li>
-                        <li>Used agile methodologies</li>
-                        <li>Created use cases and use case diagrams.</li>
-                        <li>Produced functional and nonfunctional requirements.</li>
-                    </ul>
-                    <br>
-                    <b>File Structures and Databases Project</b>
-                    <ul>
-                        <li>Worked in a team to develop a picture sharing website inspired by imgur using HTML, CSS,
-                            PHP, and MySQL.
-                        </li>
-                    </ul>
-                    <br><br>
-
-                    <b>Compilers and Languages Project</b>
-                    <ul>
-                        <li>Developed the lexical analyzing and parsing phase for a compiler using C++.</li>
-                    </ul>
-                    <br><br>
-
-                    <b>Work Experience</b><br>
-                    Brookstone, Costa Mesa, CA June 2014 - Present
-                    Assistant Manager | Sales Associate
-                    <ul>
-                        <li>Utilizaed great customer service to sell Brookstone merchandise</li>
-                        <li>Mentored new associates on social skills and selling techniques to maximize sales</li>
-                        <li>Worked hands on with emerging applicatoin integreated technologies and taught customers how to use them</li>
-                    </ul><br><br>
-
-                    Sport Chalet, Costa Mesa, CA October 2011 - Auguest 2013<br>
-                    Sales Associate<br>
-                    <ul>
-                        <li>Led the General Athletics department.</li>
-                        <li>Attained knowledge of various sports and sports equipment to consult customers.</li>
-                    </ul>
-
-                </p>
-            </section>
-        </div>
-
-    </div> -->
-
+    <script src="https://use.fontawesome.com/4e6bb2bf36.js"></script>
+    <script src="scripts/typewriter.js"></script>
 </body>
+
 </html>
