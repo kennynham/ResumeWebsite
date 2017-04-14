@@ -1,9 +1,9 @@
 html, body{
+    height: 100%;
 }
 
 body{
     text-align: center;
-    z-index: -20;
 }
 
 .typewrite{
@@ -41,7 +41,7 @@ body{
 
 a:hover{
     text-decoration: none;
-    color: red;
+    color: yellow;
 }
 
 .github-link, .linkedin-link, .resume-link{
