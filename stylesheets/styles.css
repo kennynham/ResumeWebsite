@@ -44,7 +44,7 @@ body{
 
 a:hover{
     text-decoration: none;
-    color: yellow;
+    color: rgb(50, 229, 53);
 }
 
 .github-link, .linkedin-link, .resume-link{
