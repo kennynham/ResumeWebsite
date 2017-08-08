@@ -1,57 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ned Soundboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="board">
+      <div class="board-title">
+        <h2>Ned Says</h2>
+      </div>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Kenny's Resume Website</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
-    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
-    <link rel="stylesheet" href="stylesheets/styles.css" />
-</head>
-
-<body>
-    <!-- Background image -->
-    <div class="landing-page">
-        <div id="background-overlay"></div>
-        <h1 id="banner">
-            <p href="" class="typewrite" data-period="1000" data-type='["Hi, I&#39;m Kenny.", "A developer.", "Let&#39;s work together :)"]'>
-                <span class="wrap"></span>
-            </p>
-        </h1>
-
-        <div class="content">
-            <div class="github-link">
-                <div class="icon-title">
-                    <p>Check out some of my work on GitHub</p>
-                </div>
-                <div class="icon">
-                    <a class="fa fa-github fa-5x" aria-hidden="true" href="https://github.com/kennynham"></a>
-                </div>
-            </div>
-
-            <div class="linkedin-link">
-                <div class="icon-title">
-                    <p>Find me on LinkedIn</p>
-                </div>
-                <div class="icon">
-                    <a class="fa fa-linkedin-square fa-5x" aria-hidden="true" href="https://www.linkedin.com/in/kenny-nham-9a754b11b/"></a>
-                </div>
-            </div>
-
-            <div class="resume-link">
-                <div class="icon-title">
-                    <p>Download my resume</p>
-                </div>
-                <div class="icon">
-                    <a class="fa fa-file-pdf-o fa-5x" aria-hidden="true" href="/files/resume.pdf" download></a>
-                </div>
-            </div>
-        </div>
+      <div class="board-buttons">
+          <input type="button" class="waves-effect waves-light btn-large" id="actually" value="Actually"><br><br>
+          <input type="button" class="waves-effect waves-light btn-large" id="eee" value="EEE!"><br><br>
+          <input type="button" class="waves-effect waves-light btn-large" id="lancesandwich" value="Lance Sandwich"><br><br>
+          <input type="button" class="waves-effect waves-light btn-large" id="metaphysically" value="Metaphysically"><br><br>
+          <input type="button" class="waves-effect waves-light btn-large" id="ohno" value="Oh No"><br><br>
+          <input type="button" class="waves-effect waves-light btn-large" id="ok" value="OK"><br><br>
+          <input type="button" class="waves-effect waves-light btn-large" id="okbye" value="OK...Byeee!"><br><br>
+          <input type="button" class="waves-effect waves-light btn-large" id="thatsnotgood" value="That's Not Good"><br><br>
+          <input type="button" class="waves-effect waves-light btn-large" id="ube" value="Ube"><br><br>
+          <input type="button" class="waves-effect waves-light btn-large" id="yolanda" value="Yolandaaa"><br><br>
+      </div>
     </div>
 
-    <script src="https://use.fontawesome.com/4e6bb2bf36.js"></script>
-    <script src="scripts/typewriter.js"></script>
-</body>
+  </body>
 
+  <script src="soundboard.js" charset="utf-8"></script>
 </html>
