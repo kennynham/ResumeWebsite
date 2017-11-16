@@ -1,15 +1,36 @@
+body {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+}
+
 .board{
-    /*margin: auto;
-    max-width: 100%;
-    border: 3px solid green;
-    padding: 10px;*/
+    margin: auto;
+    max-width: 960px;
+    border: 3px solid black;
+    /*background-image: url(img/1.PNG);*/
 }
 
 .board-title {
     text-align: center;
+    background-color: #5DA2D5;
+    padding: 20px 0 20px 0;
+    margin: 0;
+    border-bottom: 3px solid black;
+    width: 100%;
+    color: #ECECEC;
 }
 
 .board-buttons {
-    margin:auto;
-    width: 25%;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #ECECEC;
+}
+
+input {
+  display: inline-block;
+  width: 20%;
+  margin: 20px;
 }
