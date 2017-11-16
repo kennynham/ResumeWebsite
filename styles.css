@@ -35,4 +35,11 @@ input {
   display: inline-block;
   width: 20%;
   margin: 20px;
+  font-size: 100% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  input {
+    font-size: 60% !important;
+  }
 }
