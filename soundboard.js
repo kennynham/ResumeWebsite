@@ -43,7 +43,7 @@ document.getElementById("ube").addEventListener("click", function(){
 document.getElementById("yolanda").addEventListener("click", function(){
     playSound("yolanda");
 });
-
-document.getElementById("fuckyeah").addEventListener("click", function(){
-    playSound("fuckyeah");
-});
+// 
+// document.getElementById("fuckyeah").addEventListener("click", function(){
+//     playSound("fuckyeah");
+// });

@@ -70,7 +70,7 @@ body {
 @media only screen and (max-width: 560px) {
   body {
     align-items: baseline;
-    /*top: 30px;*/
+    height: 100%;
   }
 
   .buttons-section {
