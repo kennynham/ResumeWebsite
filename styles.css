@@ -74,13 +74,13 @@ body {
   }
 
   .buttons-section {
-    padding: 0 0 4.5% 4.5%;
+    padding: 2% 2% 3% 3%;
   }
 
   .sb-button {
-    width: 45%;
-    margin-top: 4.5%;
-    margin-right: 4.5%;
+    width: 49%;
+    margin-top: 1%;
+    margin-right: 1%;
     font-size: 75%;
   }
 }
