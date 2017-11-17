@@ -69,8 +69,8 @@ body {
 
 @media only screen and (max-width: 560px) {
   body {
-    position: absolute;
-    top: 30px;
+    align-items: baseline;
+    /*top: 30px;*/
   }
 
   .buttons-section {
