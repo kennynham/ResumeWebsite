@@ -1,0 +1,81 @@
+/*The css on this page are taken from the Materialize.css library and were modified*/
+
+/*****************************************
+              Nav Changes
+*****************************************/
+nav {
+  /*line-height: 56px;*/
+  width: 100%;
+  color: black;
+  height: 126px;
+  position: relative;
+  background-color: #fff;
+  /*z-index: 1;*/
+}
+
+nav a,
+nav li a {
+  color: black;
+}
+
+/* I removed this from the materialize.css file */
+nav ul a:hover {
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+}
+
+nav ul li.active {
+  /*I moved this styling here from the materialize.css file and added underline*/
+  text-decoration: underline;
+}
+
+/* Changed min-width to the same of hide-on-small-only */
+@media only screen and (min-width: 993px) {
+  nav a.button-collapse {
+    display: none;
+  }
+}
+
+/* Changed the positioning of the logo */
+nav .brand-logo {
+  position: absolute;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  top: 20%;
+  left: 10%;
+}
+
+/* Unchanged but needed an instance here to make it work */
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+/**************************************
+        Materialize Scrollspy
+***************************************/
+.table-of-contents a {
+  display: inline-block;
+  font-weight: 300;
+  color: #75787B; /*Changed the color*/
+  padding-left: 20px;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: .4;
+  display: inline-block;
+}
+
+.table-of-contents a:hover {
+  color: #75787B; /*Changed the color*/
+  padding-left: 19px;
+  border-left: 1px solid #CB2C30;
+}
+
+.table-of-contents a.active {
+  font-weight: 500;
+  padding-left: 18px;
+  border-left: 2px solid #CB2C30; /*Changed the color*/
+}

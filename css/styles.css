@@ -1,0 +1,612 @@
+/*When making changes, check the custom-materialize.css file for any custom changes to the Materialize.css framework*/
+
+/* for IE 4–8 */
+@font-face {
+  font-family: ClanPro-Book;
+  src: url("fonts/ufonts.com_clanpro-book.eot");
+}
+
+/* for WOFF-capable browsers */
+@font-face {
+  font-family: ClanWebPro-Book;
+  src: url("fonts/ufonts.com_clanpro-book.woff") format("woff");
+}
+
+html {
+  font-family: ClanWebPro-Book, Arial, sans-serif;
+}
+
+body,
+main {
+  padding: 0;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn-nounderline {
+  text-decoration: none !important;
+}
+
+.slide {
+  background-size: cover;
+}
+
+.spacer {
+  height: 70px;
+  width: 100%;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.list-image {
+  width: 80%;
+  height: auto;
+}
+
+.section h4 {
+  margin-top: 0;
+}
+
+.icon-large {
+  width: 80px;
+  height: 80px;
+}
+
+.single-banner {
+  width: 100%;
+  /*border: red solid 5px;*/
+}
+
+.banner-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.single-content-wrapper,
+.single-content {
+  width: 100%;
+}
+
+.single-content h1,
+.single-content h2,
+.single-content h3,
+.single-content h4 {
+  color: #512D6D;
+}
+
+
+.block-green {
+  background-image: url("../img/block_green_130x74.jpg");
+  background-repeat: no-repeat;
+  background-size: 130px 100px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.block-red {
+  background-image: url("../img/block_red_130x74.jpg");
+  background-repeat: no-repeat;
+  background-size: 130px 100px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.block-purple {
+  background-image: url("../img/block_purple_130x74.jpg");
+  background-repeat: no-repeat;
+  background-size: 130px 100px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.btn-border {
+  margin-top: 20px;
+  padding: 20px;
+  border: white 2px solid;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-border:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.add-bot-pad {
+  padding-bottom: 30px;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+/**************************************
+        TechnipFMC Colors
+***************************************/
+
+.technipFMC-purple {
+  background-color: #512D6D;
+}
+
+.technipFMC-blue {
+  background-color: #00A3E0;
+}
+
+.technipFMC-red {
+  background-color: #CB2C30;
+}
+
+.technipFMC-gray1 {
+  background-color: #53565A;
+}
+
+.technipFMC-gray2 {
+  background-color: #75787B;
+}
+
+.technipFMC-gray3 {
+  background-color: #A7A8AA;
+}
+
+.technipFMC-gray4 {
+  background-color: #D0D0CE;
+}
+/*****************************************
+              Nav Changes
+*****************************************/
+nav {
+  /*line-height: 56px;*/
+  width: 100%;
+  color: black;
+  height: 126px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 999;
+}
+
+#nav-single {
+  position: relative !important;
+}
+
+.nav-spacer {
+  height: 126px;
+  width: 100%;
+}
+
+nav a,
+nav li a {
+  color: black;
+}
+
+/* Changed the positioning of the logo */
+nav .brand-logo {
+  position: absolute;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  top: 20%;
+  left: 2%;
+}
+
+nav ul li {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.nav-content {
+  width: 100%;
+  padding: 0 20px 0 20px;
+}
+
+#nav-top-section,
+#nav-top-section li a {
+  font-size: 18px;
+}
+
+#nav-bottom-section,
+#nav-bottom-section li a {
+  font-size: 20px;
+}
+
+#nav-bottom-section li .on{
+  text-decoration: underline;
+}
+
+#menu-button {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+#menu-button:hover,
+#side-nav-menu a:hover {
+  text-decoration: none;
+}
+
+#menu-icon {
+  top: 50%;
+}
+
+/**************************************
+        Mouse Animation
+***************************************/
+.nav-mouse {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  color: white;
+}
+/**************************************
+        Section backgrounds
+***************************************/
+#solutions-section {
+  background: url("../img/DeepEnergy.png") no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+#products-section {
+  background: url("../img/Products-1.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+#support-section {
+  background: url("../img/meeting2.jpeg") no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+/* Page content */
+.page-content-wrapper {
+  position: absolute;
+  bottom: 0px;
+  width: 40%;
+  padding: 90px;
+}
+
+#support-section .page-content-wrapper {
+  position: absolute;
+  padding: 0 0 175px 90px;
+}
+
+.page-content-title,
+.page-content {
+  color: white;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
+}
+/**************************************
+              Footer
+***************************************/
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+}
+
+.footer-home {
+  bottom: 0;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+footer ul li a{
+  padding-right: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-content {
+  padding: 0 90px 0 90px;
+}
+/**************************************
+          What's a UCOS Page
+***************************************/
+.article-template {
+  width: 25%;
+  float: left;
+}
+
+.aside-template {
+  width: 75%;
+  float: left;
+}
+
+#img-components,
+#img-solutions {
+  width: 50%;
+  height: auto;
+}
+/**************************************
+          Industries Page
+***************************************/
+.article-industries {
+  width: 25%;
+  float: left;
+  padding-right: 40px;
+}
+
+.article-industries img {
+  width: 100%;
+  height: auto;
+}
+
+.aside-industries {
+  /*padding: 0 20px 0 20px;*/
+  width: 75%;
+  float: left;
+}
+/**************************************
+          Products Page
+***************************************/
+.article-products {
+  width: 25%;
+  float: left;
+}
+
+.aside-products {
+  width: 75%;
+  float: left;
+}
+/**************************************
+            Contact Page
+***************************************/
+.contact-banner {
+  height: 300px;
+  background-color: #512D6D;
+  /*opacity: 0.99;*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-banner {
+  height: 300px;
+  background-color: #53565A;
+  /*opacity: 0.99;*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.industries-banner {
+  height: 300px;
+  background-color: #CB2C30;
+  /*opacity: 0.99;*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whats-a-ucos-banner {
+  height: 200px;
+  background-color: #00A3E0;
+  /*opacity: 0.99;*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
+
+.banner-title {
+  color: white;
+}
+
+.banner {
+  padding-top: 0 !important;
+}
+
+.article-contact,
+.aside-contact {
+  width: 50%;
+  float: left;
+}
+/**************************************
+            Media Queries
+***************************************/
+@media only screen and (max-width: 1337px) {
+  .single-content {
+    padding: 0 40px 0 40px;
+  }
+
+  .page-content-wrapper {
+    width: 50%;
+    padding: 20px;
+    bottom: 120px;
+  }
+
+  #img-components,
+  #img-solutions {
+    width: 80%;
+    height: auto;
+  }
+}
+
+
+/* Changed min-width to the same of hide-on-small-only */
+@media only screen and (min-width: 993px) {
+  nav a.button-collapse {
+    display: none;
+  }
+}
+
+/*  Unchanged, but needed an instance here to make it work.
+    Taken from Materialize.css
+*/
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+  .page-content-wrapper {
+    width: 70%;
+    padding: 20px;
+    bottom: 120px;
+  }
+
+  h2 {
+    font-size: 300%;
+  }
+
+  .article-products img {
+    visibility: hidden;
+    width: 0;
+    height: auto;
+  }
+
+  .aside-products {
+    width: 100%;
+  }
+
+  .article-industries {
+    width: 0;
+    padding: 0;
+  }
+
+  .article-industries img {
+    width: 0;
+    height: auto;
+    visibility: hidden;
+  }
+
+  .aside-industries {
+    width: 100%;
+  }
+
+  .article-template {
+    width: 0;
+  }
+
+  .aside-template {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  nav .brand-logo {
+    top: 35%;
+    width: 250px;
+    height: auto;
+  }
+
+  .page-content-wrapper {
+    width: 100%;
+    padding: 20px;
+    bottom: 160px;
+  }
+
+  #support-section .page-content-wrapper {
+    position: absolute;
+    padding: 0 0 160px 20px;
+  }
+
+  h2 {
+    font-size: 220%;
+  }
+
+  .article-contact,
+  .aside-contact {
+    width: 100%;
+  }
+
+  #img-components,
+  #img-solutions {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #support-section .page-content-wrapper {
+    position: absolute;
+    padding: 0 20px 120px 20px;
+  }
+
+  .nav-mouse {
+    position: absolute;
+    bottom: 30px;
+    left: 37%;
+    color: white;
+  }
+
+  .footer-content {
+    width: 100%;
+    align-items: center;
+    margin: 0 20px 0 20px;
+    padding: 0;
+  }
+
+  .btn-border {
+    display: block;
+    text-align: center;
+  }
+
+  #home-section {
+    background-image: url();
+    background-color: #512D6D !important;
+  }
+
+  #solutions-section {
+    background-image: url();
+    background-color: #CB2C30 !important;
+  }
+
+  #products-section {
+    background-image: url();
+    background-color: black !important;
+  }
+
+  #support-section {
+    background-image: url();
+    background-color: #00A3E0 !important;
+  }
+
+  .text-shadow {
+    text-shadow: 0 0 0 0;
+  }
+
+  video {
+    visibility: hidden;
+  }
+
+  nav {
+    width: 100%;
+    color: black;
+    height: 100px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 999;
+  }
+
+  .brand-logo {
+    visibility: hidden;
+  }
+
+  #menu-button {
+    color: white !important;
+    margin: 0;
+    background-color: white;
+  }
+}

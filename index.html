@@ -1,35 +1,141 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ned Soundboard</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"> -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>UCOS</title>
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-    <div class="background-images">
-      <div class="board">
-        <div class="board-title">
-          <h2>Ned Says</h2>
+<!-- Nav Section -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="http://www.technipfmc.com/"><img class="brand-logo" src="img/TechnipFMC_Logo_400x73.png" alt="fmc logo"></a>
+        <a href="#" data-activates="side-nav-menu" id="menu-button" class="button-collapse"><img src="img/menu-small.png"></a>
+        <div class="nav-content">
+          <ul id="nav-top-section" class="right hide-on-med-and-down">
+            <li><a href="index.html"><b>UCOS Products and Services</b></a></li>
+            <li>|</li>
+            <li><a href="http://www.technipfmc.com">TechnipFMC Site</a></li>
+          </ul>
+          <br>
+          <ul id="nav-bottom-section" class="right hide-on-med-and-down">
+            <li data-menuanchor="Home"><a href="#Home">Home</a></li>
+            <li data-menuanchor="Solutions"><a href="#Solutions">Solutions</a></li>
+            <li data-menuanchor="Products"><a href="#Products">Products</a></li>
+            <li data-menuanchor="Support"><a href="#Support">Support</a></li>
+            <li data-menuanchor="Contact"><a href="contact.html">Contact us</a></li>
+          </ul>
         </div>
-        <div class="buttons-section">
-          <input type="button" class="sb-button hvr-grow-shadow" id="actually" value="Actually">
-          <input type="button" class="sb-button hvr-grow-shadow" id="eee" value="EEE!">
-          <input type="button" class="sb-button hvr-grow-shadow" id="lancesandwich" value="Lance Sandwich">
-          <input type="button" class="sb-button hvr-grow-shadow" id="metaphysically" value="Metaphysically">
-          <input type="button" class="sb-button hvr-grow-shadow" id="ohno" value="Oh No">
-          <input type="button" class="sb-button hvr-grow-shadow" id="ok" value="OK">
-          <input type="button" class="sb-button hvr-grow-shadow" id="okbye" value="OK...Byeee!">
-          <input type="button" class="sb-button hvr-grow-shadow" id="thatsnotgood" value="That's Not Good">
-          <input type="button" class="sb-button hvr-grow-shadow" id="ube" value="Ube">
-          <input type="button" class="sb-button hvr-grow-shadow" id="yolanda" value="Yolandaaa">
-          <!-- <input type="button" class="sb-button hvr-grow-shadow" id="fuckyeah" value="Fuck Yeah!"> -->
+        <ul class="side-nav" id="side-nav-menu">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Solutions">Solutions</a></li>
+          <li><a href="#Products">Products</a></li>
+          <li><a href="#Support">Support</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="fullpage">
+<!-- Home Section -->
+    	<div class="section" id="home-section">
+        <video data-autoplay data-keepplaying loop="" muted="" class="video" poster="">
+          <source src="img/UcosDotComOpenerV1.mp4" type="video/mp4">
+        </video>
+        <div class="page-content-wrapper">
+          <div class="text-shadow">
+            <div class="page-content-title">
+              <h2>Superior Industrial Control Solutions Made Simple</h2>
+            </div>
+            <div class="page-content">
+              <p>UCOS brings you advanced control, alarming &amp; logging capabilities without custom programming or proprietary hardware.</p>
+            </div>
+          </div>
+          <br>
+          <a class="btn-border" href="whats-a-ucos.html">What's a UCOS?</a>
+        </div>
+        <div class="nav-mouse center">
+          <img class="animated bounceInDown" src="img/mouse.png"></img>
+          <p>Scroll Down</p>
         </div>
       </div>
+<!-- Solutions Section -->
+      <div class="section" id="solutions-section">
+        <div class="page-content-wrapper">
+          <div class="text-shadow">
+            <div class="page-content-title">
+              <h2>UCOS Solutions</h2>
+            </div>
+            <div class="page-content">
+              <p>Since 1995, UCOS has provided cost-effective control solutions for critical infrastructure projects, manufacturing facilities, and oil &amp; gas production and transportation.</p>
+            </div>
+          </div>
+          <br>
+          <a class="btn-border" href="industries.html">UCOS in Industry</a>
+        </div>
+        <div class="nav-mouse center">
+          <img class="animated bounceInDown" src="img/mouse.png"></img>
+          <p>Scroll Down</p>
+        </div>
+      </div>
+<!-- Products Section -->
+    	<div class="section" id="products-section">
+        <div class="page-content-wrapper">
+          <div class="text-shadow">
+            <div class="page-content-title">
+              <h2>Powered by UCOS</h2>
+            </div>
+            <div class="page-content">
+              <p>TechnipFMC offers turn key solutions including early production skids, tank monitoring solutions, and LACT skids, all powered by UCOS.
+                <br>
+                Contact <a href="mailto:UCOSsales@technipfmc.com?subject=UCOS Product Inquiry">UCOSsales@TechnipFMC.com</a> for more information.</p>
+                <br>
+            </div>
+          </div>
+          <a class="btn-border" href="products.html">Featured Products</a>
+        </div>
+        <div class="nav-mouse center">
+          <img class="animated bounceInDown" src="img/mouse.png"></img>
+          <p>Scroll Down</p>
+        </div>
+      </div>
+<!-- Support Section -->
+      <div class="section" id="support-section">
+        <div class="page-content-wrapper">
+          <div class="text-shadow">
+            <div class="page-content-title">
+              <h2>How can we help you?</h2>
+            </div>
+            <div class="page-content">
+              <p>UCOS customer support is avalable 24/7, 365 days per year by phone, email, or through our customer portal. In many instances, our customer support team can log into your system and help you in real time.</p>
+              <br>
+            </div>
+          </div>
+          <a class="btn-border" href="contact.html">UCOS Customer Page</a>
+        </div>
+<!-- Footer -->
+        <footer class="footer-home">
+          <div class="footer-content">
+            <ul>
+              <li><a href="http://www.technipfmc.com/en/services/accessibility">Accessibility</a></li>
+              <li><a href="http://www.technipfmc.com/en/services/privacy-policy">Privacy &amp; cookies</a></li>
+              <li><a href="http://www.technipfmc.com/en/services/legal-notice">Legal Notice</a></li>
+            </ul>
+            <p>© Copyright 2017 TechnipFMC plc</p>
+          </div>
+        </footer>
+      </div>
     </div>
+<!-- Scripts -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
-
-  <script src="soundboard.js" charset="utf-8"></script>
 </html>
